@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>CS Education Week - Hour of Code</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Hour of Code</h1>
+
+					<pre><code class="hljs" data-trim contenteditable>
+					void setup() {
+  topic = "Computer Science Education Week";
+  presenter = "Andrew Seidel";
+}
+				</code></pre>
+				<p>Source code for this presentation available <a href="https://github.com/mrseidel/HourOfCode-JFSS2016">here</a></p>
+				</section>
+				<section>
+					Agenda <br/>
+					<ul>
+						<li>Hour of Code</li>
+						<li>Video Teaser</li>
+					</ul>
+				</section>
+				<section> <!--Hour of Code Section -->
+					<section>
+						<img src="http://mrseidel.com/hoc/HourOfCode_logo_RGB.jpg" height=600px>
+					</section>
+					<section>
+						<h1>What is Hour of Code?</h1>
+						<blockquote>"The Hour of Code is a global movement reaching tens of millions of students in 180+ countries.
+												Anyone anywhere can organize an Hour of Code event.
+												One-hour tutorials are available in over 45 languages. No experience needed."" </blockquote>
+												<p><a href="https://hourofcode.com/ca">--Code.org</a></p>
+					</section>
+					<section>
+						<h1>How does it work?</h1>
+						<p>Students will complete either:</p>
+
+						<ul>
+							<span class="fragment"><li>A teacher-directed lesson, or </li></span>
+							<span class="fragment"><li>A self-directed tutorial</li></span>
+						</ul>
+						<span class="fragment"><p>to help students develop computational thinking skills</p></span>
+					</section>
+					<section>
+						<h1>But, I don't have a computer lab!</h1>
+						<span class="fragment">
+							There are two options:<br/>
+						</span>
+						<span class="fragment">
+							You can book a lab, the iPads, or the Computers on Wheels and complete a lesson through there, or <br/>
+						</span>
+						<span class="fragment">
+							There are <a href="">"unplugged"</a> lessons where you can complete the lesson
+							without any technology in the class.
+						</span>
+					</section>
+				</section>
+				<section>
+    			<iframe width="720" height="480" src="https://www.youtube.com/embed/qYZF6oIZtfc" frameborder="0" allowfullscreen></iframe>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
